@@ -13,7 +13,7 @@ public class Estudante {
         private char genero;
         private String enderecoEletronico;
         private String telefoneContato;
-        private static String nome;
+        private static String nivelEnsino;
         
         // Dados Institucionais
         private int anoIngresso;
@@ -41,8 +41,12 @@ public class Estudante {
       public static void setNome(String _nome){
           nome = _nome;
       }
-
-
+      public void setMatricula(String _digitos) {
+              digito = _digito;
+      }
+      public String getMatricula() {
+              return anoIngresso+semestre=digitos;
+      }  
 
 
 }
