@@ -7,12 +7,12 @@ public class SistemaIFC {
         Estudante vinicius = new Estudante ();
         Estudante joao = new Estudante ();
         
-        camada.setNome("camada");
-        vinicius.setNome("vinicius");
-        joao.setNome("joao");
+        camada.setNomeCompleto("camada");
+        vinicius.setNomeCompleto("vinicius");
+        joao.setNomeCompleto("joao");
         
-        System.out.println(camada.getNome());
-        System.out.println(vinicius.getNome());
-        System.out.println(joao.getNome());
+        System.out.println(camada.getNomeCompleto());
+        System.out.println(vinicius.getNomeCompleto());
+        System.out.println(joao.getNomeCompleto());
     }
 }
